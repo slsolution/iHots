@@ -11,6 +11,8 @@
 
     <style type="text/css">
       @import url(css/main.css);
+      @import url(css/sl.css);
+      @import url(lib/bootstrap/bootstrap.css);
 
     </style>
   </head>
@@ -18,7 +20,7 @@
 
    <header>
       <h1 class="float-l">
-        <a href="#" title="Titulo do Site">iHots</a>
+        <a href="#" title="Titulo do Site"><img src="img/coracao.png"  width="30px" style="float:left;">iHots </a>
       </h1>
       
       <input type="checkbox" id="control-nav" />
@@ -28,24 +30,44 @@
       <nav class="float-r">
         <ul class="list-auto">
           <li>
-            <a href="#Chaves" title="Entra no sistema">Entrar</a>
+            <a href="index.html" title="Entra no sistema"><img src="img/cadeado.png" width="15px" style="float: left;margin-top: 6px;"> <span style="margin-left: 5px;">Entrar</span></a></a>
           </li>
           <li>
-            <a href="#Chiquinha" title="Interesso-me por mulheres">Mulheres</a>
+            <a href="#" title="Interesso-me por mulheres"> <img src="img/lupa.png" width="15px" style="float: left;margin-top: 6px;"> <span style="margin-left: 5px;">Pesquisar</span></a>
           </li>
           <li>
-            <a href="#Seu-Madruga" title="Interesso-me por homens ">Homens</a>
+            <a href="#" title="Interesso-me por mulheres"> <img src="img/fone.png" width="15px" style="float: left;margin-top: 6px;"> <span style="margin-left: 5px;">Contato</span></a>
           </li>
           <li>
-            <a href="#Quico" title="Interesso-me por Transsexuais">Transsexuais</a>
-          </li>
-          <li>
-            <a href="#Quico" title="Contato">Contato</a>
+            <a href="termos.html" title="Termos de uso"> termos </a>
           </li>
         </ul>
       </nav>
     </header>
-   
+
+  <main class="container-fluid">
+
+    <section class="row">
+    <div class="col-xs-12">
+      <form action="#" method="post">
+        <label for="usuario">Usuário</label>
+        <input type="text" name="usuario" class="form-control"><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" class="form-control"><br>
+        <button type="button" class="btn btn-danger btn-block">Esquentar</button>
+        <br>
+        <button type="button" class="btn btn-inverse" style="float: left;">Esqueci senha</button>
+        <button type="button" class="btn btn-info" style="float: right;">Cadastrar</button>
+        
+        
+      </form>
+    </div>
+
+    </section>
+
+  </main>
+
 
     
   </body>
